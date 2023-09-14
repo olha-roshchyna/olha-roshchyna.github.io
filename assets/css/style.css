@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+}
+
+
+body {
+        background-image: linear-gradient(rgb(4, 42, 68), rgb(20, 122, 142));
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: rgb(246, 243, 243);
+}
+
+a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+}
+
+.container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+}
+
+a:hover {
+        color: grey;
+}
+
+.links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.link {
+        line-height: 2;
+        border: 1px solid #00000000;
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        background-color: #ffffff;
+        color: black;
+        text-align: center;
+}
+
+h1 {
+        color: rgb(235, 235, 235);
+        font-size: 42px;
+        font-weight: 800;
+        padding: 20px 0;
+        line-height: 1.2;
+        text-align: center;
+}
+
+h2 {
+        color: rgb(235, 235, 235);
+        font-size: 24px;
+        font-weight: 400;
+        padding: 10px 0;
+        line-height: 1;
+}
+
+h3 {
+        font-size: 28px;
+        font-weight: 600;
+        padding: 10px 0;
+        line-height: 1.2;
+}
+
+.main {
+        margin: auto;
+}
+
+.el {
+        width: 100%;
+}
+
+.img {
+        border-radius: 50%;
+}
+
+.lesfls {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}
+
+.seo {
+        color: rgb(235, 235, 235);
+        font-size: 18px;
+        font-weight: 400;
+        padding: 10px 0;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 10px;
+}
+
+.skl {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+        text-align: center;
+}
