@@ -77,6 +77,8 @@ h2 {
 
 .img {
         border-radius: 50%;
+        text-align: center;
+        
 }
 
 .descr {
@@ -87,4 +89,8 @@ h2 {
         line-height: 1;
         text-align: center;
         margin-bottom: 10px;
+}
+
+.portr {
+        text-align: center;
 }
