@@ -11,7 +11,7 @@
 
 
 body {
-        background-image: linear-gradient(to left top, #170640, #180744, #190748, #1b084c, #1c0850, #1c0850, #1c0850, #1c0850, #1b084c, #190748, #180744, #170640);
+        background-image: linear-gradient(to right top, #170640, #1e0956, #270c6e, #2f0e86, #38109f, #38109f, #38109f, #38109f, #2f0e86, #270c6e, #1e0956, #170640);
         background-repeat: no-repeat;
         background-size: cover;
         font-family: 'Inter';
@@ -36,6 +36,7 @@ a {
         align-items: center;
 }
 
+.el
 .link {
         line-height: 2;
         border: 1px solid #00000000;
