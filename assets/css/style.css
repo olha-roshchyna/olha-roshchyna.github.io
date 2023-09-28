@@ -13,7 +13,7 @@ body {
         background-image: linear-gradient(to right top, #170640, #1e0956, #270c6e, #2f0e86, #38109f, #38109f, #38109f, #38109f, #2f0e86, #270c6e, #1e0956, #170640);
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: 'Inter';
+        font-family: "Inter", sans-serif;
         font-size: 18px;
         color: rgb(246, 243, 243);
 }
