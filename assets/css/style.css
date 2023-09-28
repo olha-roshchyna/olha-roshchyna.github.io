@@ -9,7 +9,7 @@
 
 
 body {
-        background-image: linear-gradient(rgb(5, 44, 70), rgb(13, 105, 123));
+        background-image: linear-gradient(to left top, #170640, #180744, #190748, #1b084c, #1c0850, #1c0850, #1c0850, #1c0850, #1b084c, #190748, #180744, #170640);
         background-repeat: no-repeat;
         background-size: cover;
         font-family: 'Roboto', sans-serif;
