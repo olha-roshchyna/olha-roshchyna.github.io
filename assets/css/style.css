@@ -10,7 +10,7 @@
 }
 
 body {
-        background: linear-gradient(0deg, hsla(220, 76%, 39%, 1) 0%, hsla(233, 67%, 20%, 1) 100%);
+        background: linear-gradient(0deg, hsla(220, 78%, 29%, 1) 0%, hsla(0, 0%, 3%, 1) 100%);
         background-repeat: no-repeat;
         background-size: cover;
         font-family: "Inter", sans-serif;
@@ -67,7 +67,7 @@ h2 {
 
 
 .link {
-        border: 1px solid hsla(220, 76%, 39%, 1);
+        border: 1px solid hsla(220, 76%, 39%, 0.01);
         display: block;
         border-radius: 10px;
         width: 100%;
