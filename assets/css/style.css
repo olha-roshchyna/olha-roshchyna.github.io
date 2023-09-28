@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600&display=swap");
+
 *,
 *::before,
 *::after {
@@ -12,7 +14,7 @@ body {
         background-image: linear-gradient(to left top, #170640, #180744, #190748, #1b084c, #1c0850, #1c0850, #1c0850, #1c0850, #1b084c, #190748, #180744, #170640);
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Inter';
         font-size: 18px;
         color: rgb(246, 243, 243);
 }
@@ -26,10 +28,6 @@ a {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-}
-
-a:hover {
-        color: grey;
 }
 
 .links {
@@ -50,10 +48,17 @@ a:hover {
         text-align: center;
 }
 
+.link:hover {
+        border: 1px solid color(linear-gradient(to left top, #2d0e78, #2f0f7c, #301081, #321185, #33128a, #33128a, #33118a, #33118a, #311086, #300e82, #2e0d7e, #2c0c7a); red green blue);
+        background-image: linear-gradient(to left top, #41287e, #442a83, #462c88, #492e8d, #4b3092, #4d3293, #4e3493, #503694, #513990, #523b8d, #533e89, #544085);
+        color: rgb(255, 255, 255);
+        transition: 0.7s ease;
+}
+
 h1 {
         color: rgb(235, 235, 235);
         font-size: 42px;
-        font-weight: 800;
+        font-weight: 600;
         padding: 20px 0;
         line-height: 1.2;
         text-align: center;
