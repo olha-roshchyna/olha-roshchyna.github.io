@@ -38,6 +38,7 @@ a {
 
 
 .link {
+        /* display: block; */
         line-height: 2;
         border: 1px solid #00000000;
         border-radius: 10px;
@@ -54,6 +55,14 @@ a {
         background-color: #170640;
         color: rgb(255, 255, 255);
         transition: 0.3s ease;
+}
+
+.el:hover {
+        border: 0px solid #170640;
+        background-color: #17064000;
+        color: rgb(255, 255, 255);
+        transition: 0.3s ease;
+
 }
 
 h1 {
