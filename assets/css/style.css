@@ -36,7 +36,7 @@ a {
         align-items: center;
 }
 
-.el
+
 .link {
         line-height: 2;
         border: 1px solid #00000000;
@@ -49,9 +49,7 @@ a {
         text-align: center;
 }
 
-.el
-.link,
-:hover {
+.link:hover {
         border: 1px solid color linear-gradient(to right top, #170640, #1e0956, #270c6e, #2f0e86, #38109f, #38109f, #38109f, #38109f, #2f0e86, #270c6e, #1e0956, #170640);
         background-image: linear-gradient(to right top, #170640, #1e0956, #270c6e, #2f0e86, #38109f, #38109f, #38109f, #38109f, #2f0e86, #270c6e, #1e0956, #170640);
         color: rgb(255, 255, 255);
