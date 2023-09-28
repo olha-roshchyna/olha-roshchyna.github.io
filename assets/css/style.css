@@ -35,7 +35,7 @@ a {
 
 .img {
         border-radius: 50%;
-        border: 2px solid hsla(0, 0%, 100%, 1);
+        border: 2px solid #ffffff;
         text-align: center;
 }
 
