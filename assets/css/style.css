@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Inter:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600,800&display=swap");
 
 *,
 *::before,
@@ -30,6 +30,37 @@ a {
         flex-direction: column;
 }
 
+.main {
+        margin: auto;
+}
+
+.img {
+        border-radius: 50%;
+        text-align: center;
+}
+
+h1 {
+        color: rgb(235, 235, 235);
+        font-size: 42px;
+        font-weight: 600;
+        margin: 10px 0;
+        text-align: center;
+}
+
+h2 {
+        color: rgb(235, 235, 235);
+        font-size: 24px;
+        font-weight: 400;
+        margin: 10px 0;
+        text-align: center;
+}
+
+
+
+.portr {
+        text-align: center;
+}
+
 .links {
         display: flex;
         flex-direction: column;
@@ -38,13 +69,12 @@ a {
 
 
 .link {
-        /* display: block; */
         line-height: 2;
         border: 1px solid #00000000;
         border-radius: 10px;
         width: 100%;
         padding: 10px;
-        margin: 5px 0;
+        margin: 5px auto;
         background-color: #ffffff;
         color: black;
         text-align: center;
@@ -55,56 +85,4 @@ a {
         background-color: #170640;
         color: rgb(255, 255, 255);
         transition: 0.3s ease;
-}
-
-.el:hover {
-        border: 0px solid #170640;
-        background-color: #17064000;
-        color: rgb(255, 255, 255);
-        transition: 0.3s ease;
-
-}
-
-h1 {
-        color: rgb(235, 235, 235);
-        font-size: 42px;
-        font-weight: 600;
-        padding: 20px 0;
-        line-height: 1.2;
-        text-align: center;
-}
-
-h2 {
-        color: rgb(235, 235, 235);
-        font-size: 24px;
-        font-weight: 400;
-        padding: 10px 0;
-        line-height: 1;
-}
-
-.main {
-        margin: auto;
-}
-
-.el {
-        width: 100%;
-}
-
-.img {
-        border-radius: 50%;
-        text-align: center;
-}
-
-.descr {
-        color: rgb(235, 235, 235);
-        font-size: 18px;
-        font-weight: 400;
-        padding: 10px 0;
-        line-height: 1;
-        text-align: center;
-        margin-bottom: 10px;
-}
-
-.portr {
-        text-align: center;
 }
