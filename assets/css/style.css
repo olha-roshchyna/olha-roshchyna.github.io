@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Inter:regular,600,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600&display=swap");
 
 *,
 *::before,
@@ -8,7 +8,6 @@
         border: 0;
         box-sizing: border-box;
 }
-
 
 body {
         background-image: linear-gradient(to right top, #170640, #1e0956, #270c6e, #2f0e86, #38109f, #38109f, #38109f, #38109f, #2f0e86, #270c6e, #1e0956, #170640);
@@ -55,8 +54,6 @@ h2 {
         text-align: center;
 }
 
-
-
 .portr {
         text-align: center;
 }
@@ -69,23 +66,17 @@ h2 {
 
 
 .link {
-        line-height: 2;
-        border: 1px solid #00000000;
+        display: block;
         border-radius: 10px;
         width: 100%;
-        padding: 10px;
+        padding: 20px;
         margin: 5px auto;
         background-color: #ffffff;
-        color: black;
+        /* color: black; */
         text-align: center;
 }
 
 .link:hover {
-        border: 1px solid #170640;
-        border-radius: 10px;
-        width: 100%;
-        padding: 10px;
-        margin: 5px auto;
         background-color: #170640;
         color: rgb(255, 255, 255);
         transition: 0.3s ease;
