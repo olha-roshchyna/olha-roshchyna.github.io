@@ -1,2 +1,7 @@
 User-agent: Yandex
 Disallow: /
+
+User-agent: *
+Allow: /
+
+Host: https://olha-roshchyna.github.io/
