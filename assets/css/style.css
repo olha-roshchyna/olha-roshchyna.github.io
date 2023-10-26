@@ -94,7 +94,9 @@ h2 {
 }
 
 .about {
+        hyphens: auto;
         text-align: justify;
-        max-width: 313px;
-        margin-bottom: 10px;; 
+        font-size: 17.7px;
+        max-width: 312.59px;
+        margin-bottom: 10px;
 }
