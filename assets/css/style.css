@@ -92,3 +92,9 @@ h2 {
         background-color: transparent;
         color: rgb(255, 255, 255);
 }
+
+.about {
+        text-align: justify;
+        max-width: 313px;
+        margin-bottom: 10px;; 
+}
