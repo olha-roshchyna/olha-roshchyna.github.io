@@ -95,7 +95,6 @@ h2 {
 }
 
 .about {
-        hyphens: auto;
         text-align: justify;
         font-size: 20px;
         max-width: 384px;
